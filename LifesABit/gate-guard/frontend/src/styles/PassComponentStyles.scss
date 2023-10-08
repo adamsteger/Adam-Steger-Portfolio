@@ -1,0 +1,117 @@
+@import "~bootstrap/scss/bootstrap";
+@import "react-bootstrap-range-slider/dist/react-bootstrap-range-slider.scss";
+@import "../styles/colors.scss";
+@import "../styles/NewPassModal.scss";
+
+.passComponentDiv {
+    color:  var(--accent-color);
+    padding: 15px;
+}
+
+.expLine {
+    display: flex;
+    align-items: baseline;
+    svg {
+        color:  var(--accent-color);
+        margin-right: 10px;
+    }
+}
+
+div.contentContainer div.modal-dialog {
+    div.modal-content {
+        background-color: var(--background-color);
+        border: none;
+    }
+    div.modal-footer {
+        border-top: none;
+    }
+}
+
+.passEditModal {
+    background-color:var(--background-color);
+    border: 1px solid  var(--accent-color);
+    border-radius: 10px;
+    
+    .passEditForm {
+        background-color: var(--background-color);
+        input {
+            margin-bottom: 10px;
+            background-color: var(--background-color);
+            color: $base-color;
+            border-color: var(--accent-color);
+        }
+        .form-check-input:checked {
+            background-color: var(--accent-color);
+        }
+    }   
+}
+
+.sharePassModal .modal-dialog .modal-content {
+    background-color: var(--background-color) !important;
+    border: 1px solid var(--accent-color);
+    border-radius: 10px;
+    
+    .shareModalBody {
+        background-color: var(--background-color);
+        .form-check-input:checked {
+            background-color: var(--accent-color);
+        }
+    }   
+}
+
+.expDateOrUses {
+    color: $warning;
+}
+
+.dottedhr {
+    border: 1px solid $accent-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    background-color: #00000000;
+}
+
+.shareModalBody {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sharedQrCode {
+    margin-bottom: 10px;
+}
+
+.sharePassLink {
+    color: $accent-color !important;
+    text-decoration: underline !important;
+    display: inline-block !important;
+    padding: 5px !important;
+}
+
+.expMessage {
+    color: $warning;
+    margin-left: 10px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.accentColorText {
+    color: var(--accent-color);
+}
+
+.accentColorText:hover {
+    color: var(--accent-color2);
+}
+
+.smallerText {
+    font-size: 12pt;
+}

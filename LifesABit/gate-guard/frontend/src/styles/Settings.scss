@@ -1,0 +1,69 @@
+@import "../styles/main.scss";
+
+.Settings{
+    height: 10vh;
+    background-color: var(--base-color);;
+}
+
+.bar_input input {
+    -webkit-appearance: none;
+    height: 0.5em;
+    background:grey;
+    border-radius:10px;
+    background-image:linear-gradient(var(--accent-color), var(--accent-color));
+    background-repeat: no-repeat;
+}
+
+.bar_input input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: var(--accent-color);
+    border-radius:50%;
+    cursor: pointer;
+}
+
+.textAlignLeft {
+    text-align: left;
+}
+
+
+.whiteHr {
+    /*
+    background: white;
+    color: white;
+    border-color: white;
+    */
+    height: 3px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.personalInfoDiv {
+
+    .row {
+        width: fit-content;
+    }
+
+    .nameTextbox {
+        width: 150px;
+    }
+
+    .w-300px {
+        width: 300px;
+    }
+}
+
+.redText {
+    color: $warning;
+}

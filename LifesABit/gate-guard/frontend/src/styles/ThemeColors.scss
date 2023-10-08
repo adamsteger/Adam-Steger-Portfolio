@@ -1,0 +1,54 @@
+@import "../styles/colors.scss";
+
+
+$themes: (
+
+    background-color: (
+        darkTheme: #212529,
+        lightTheme: white
+    ),
+    accent-color: (
+        darkTheme: #557B8B,
+        lightTheme: #7ebbd4
+    ),
+    accent-color2: (
+        darkTheme: #7ebbd4,
+        lightTheme: #557B8B
+    ),
+    accent-color3: (
+        darkTheme: #293c44,
+        lightTheme: #f2ebe3
+    ),
+    base-color: (
+        darkTheme: #ddd,
+        lightTheme: #293c44
+    )
+
+);
+
+
+$font: "Segoe UI";
+$base-color: #ddd;
+$gray: #898c8e;
+$beige: #f2ebe3;
+$warning: #c3645f;
+
+
+@mixin styles($mode) {
+    @each $key, $map in $themes {
+      @each $prop, $color in $map {
+        @if $prop == $mode {
+          --#{$key}: #{$color};
+        }
+      }
+    }
+  }
+
+
+  .dark-mode {
+    @include styles("darkTheme");
+  }
+  
+  .light-mode {
+    @include styles("lightTheme");
+  }

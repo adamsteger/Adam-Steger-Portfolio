@@ -1,0 +1,54 @@
+.SearchButton {
+    margin: 20px;
+    text-align: left;
+}
+
+.tableData {
+    margin: 0px;
+    text-align: center;
+}
+
+.search {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 12px !important;
+    width: 150px;
+    max-width: 150px;
+}
+
+.list {
+    padding: 0; 
+    list-style: none;
+    text-align: right;
+}
+
+.listItem {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: var(--base-color);
+    font-weight: 100;
+}
+
+.button button{
+    background-color: darkred;
+    color: var(--base-color);
+    text-align: right;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+  }
+table tr th {
+    text-align: center;
+    background: none;
+    color: var(--base-color);
+}
+
+.promoteUserIcon {
+    margin-right: 5px;
+}
+
+.demoteUserIcon {
+    margin-left: 5px;
+}

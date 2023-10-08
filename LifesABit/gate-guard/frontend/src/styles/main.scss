@@ -1,0 +1,71 @@
+@import "../styles/colors.scss";
+@import "../styles/ThemeColors.scss";
+
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p, div, span, svg {
+  color: var(--base-color);
+}
+
+body {
+  background-color: var(--background-color) !important;
+}
+
+.contentContainer {
+  padding: 20px;
+}
+
+.thickHr {
+  border-top: 2px;
+}
+
+@import "~bootstrap/scss/bootstrap";
+
+.guard-button {
+  color: white;
+  background-color: #757575;
+  display: flex;
+  width: fit-content;
+}
+
+.theme-btn {
+  background-color: $accent-color;
+  border-color: $accent-color !important;
+}
+
+.theme-btn:hover {
+  background-color: $accent-color-3;
+  border-color: $accent-color-3 !important;
+}
+
+.theme-btn:active {
+  background-color: $accent-color;
+  border-color: $accent-color !important;
+}
+
+.theme-btn:focus {
+  background-color: $accent-color;
+  border-color: $accent-color !important;
+}
+
+.theme-btn-2 {
+  background-color: $accent-color-2;
+  border-color: $accent-color-2 !important;
+}
+
+.theme-btn-2:hover {
+  background-color: $accent-color-3;
+  border-color: $accent-color-3 !important;
+}
+
+.theme-btn-2:active {
+  background-color: $accent-color-2;
+  border-color: $accent-color-2 !important;
+}
+
+.theme-btn-2:focus {
+  background-color: $accent-color-2;
+  border-color: $accent-color-2 !important;
+}
