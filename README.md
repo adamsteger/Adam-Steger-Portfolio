@@ -9,3 +9,6 @@ This directory contains coursework for Foundations in Computation.  My code feat
 
 ### Internship (Java, JSON, JUnit)
 This directory contains the group project UrTern, which is a console application where employees can create internship posts and students can build resumes and apply to internship posts.  This is a Java project in which I designed a JSON database to store the information for the posts, students, employers, etc.
+
+### Design Patterns (Java)
+This directory contains design patterns from a Software Engineering course.
