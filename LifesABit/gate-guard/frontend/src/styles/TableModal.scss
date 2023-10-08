@@ -1,0 +1,33 @@
+@import "~bootstrap/scss/bootstrap";
+@import "react-bootstrap-range-slider/dist/react-bootstrap-range-slider.scss";
+@import "../styles/colors.scss";
+
+.adminEditModal .modal-dialog {
+  background-color: var(--background-color);
+  border-radius: 10px;
+
+  .modal-header {
+    background-color: var(--background-color);
+  }
+
+  .modal-body {
+    background-color:var(--background-color);
+  }
+
+  .modal-footer {
+    background-color: var(--background-color);
+  }
+  
+  .passEditForm {
+      background-color: var(--background-color);
+      input {
+          margin-bottom: 10px;
+          background-color: var(--background-color);
+          color: var(--base-color);
+          border-color: var(--accent-color);
+      }
+      .form-check-input:checked {
+          background-color: var(--accent-color);
+      }
+  }   
+}

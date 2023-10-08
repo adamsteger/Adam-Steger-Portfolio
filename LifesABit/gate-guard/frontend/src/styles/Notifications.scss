@@ -1,0 +1,106 @@
+@import "../styles/main.scss";
+
+.notif-icon {
+  height: 15px;
+  width: 15px;
+  color: $accent-color;
+  display: inline-block;
+  vertical-align: middle;
+  //position: absolute;
+  //top: -5px;
+  //right: -5px;
+}
+
+.red-text {
+  color: $warning;
+}
+
+
+.notificationPageHeader{
+  text-indent: 20px;
+}
+
+.unread-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:  var(--base-color);
+  font-size: 20px;
+  font-weight: bold;
+  background-color: $warning;
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+}
+
+.notification-header-div {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+
+  div {
+    margin-left: 20px;
+  }
+}
+
+.accentColor {
+  color: $accent-color;
+}
+
+.notifRow {
+  border: 1px solid  var(--accent-color);
+  border-bottom: none;
+  flex-wrap: nowrap !important;
+}
+
+.notifHeader {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.notifHeaderText {
+  font-weight: bold;
+}
+
+.notifRow:last-child {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.notifRow:last-child {
+  border-bottom: 1px solid  var(--accent-color);
+}
+
+.notifIconDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid  var(--accent-color);
+}
+
+.notifTimestampDiv {
+  display: flex;
+}
+
+.contentDiv {
+  padding: 10px;
+}
+
+.notifFoldableContent {
+  max-width: 15%;
+  width: 15%;
+  min-width: 15%;
+  overflow-wrap: break-word;
+}
+
+.notifPageControls {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pageCountMarker {
+  text-align: center;
+}

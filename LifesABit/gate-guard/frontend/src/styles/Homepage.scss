@@ -1,0 +1,227 @@
+@import "../styles/colors.scss";
+@import "~bootstrap/scss/bootstrap";
+
+.navBar-icon {
+    height: 12px;
+    width: 12px;
+}
+
+.link {
+    color:  var(--accent-color-2);
+}
+
+.parallaxSection {
+    font-size: 20pt;
+    display: flex;
+    padding-bottom: 0px;
+}
+
+.padding-20px {
+    padding: 20px;
+}
+
+.no-bottom-padding {
+    padding-bottom: 0px !important;
+}
+
+.parallaxText {
+    width: 80%;
+}
+
+.centerParallaxSubcontainer {
+    width: 50%;
+    padding: 20px;
+}
+
+.parallaxHeader {
+    font-size: 32pt;
+}
+
+.mb-15-perc {
+    margin-bottom: 15%;
+}
+
+.mt-15-perc {
+    margin-top: 15%;
+}
+
+.mb-10-perc {
+    margin-bottom: 10%;
+}
+
+.mt-10-perc {
+    margin-top: 10%;
+}
+
+.qrCodeScreenshot {
+    width: 40%;
+    min-width: 300px;
+    float: right;
+}
+
+.shadedContainer {
+    background-color: #00000055;
+    border-radius: 5px;
+    @media (min-width: 500px) {
+        width: 40vw;
+        padding: 5px;
+        padding-top: 0px;
+    }
+    @media (max-width: 500px) {
+        width: 90vw;
+        padding: 5px;
+        padding-top: 0px;
+    }
+    height: fit-content;
+    z-index: 3;
+    p {
+        color: white;
+        z-index: 3;
+    }
+}
+
+.rightParallaxFloater {
+    position: absolute;
+    right: 5%;
+    top: 7.5%;
+    bottom: 7.5%
+}
+
+.leftParallaxFloater {
+    position: absolute;
+    left: 5%;
+    top: 20%;
+}
+
+.bottomRightFloater {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+.centerFloater {
+    position: absolute;
+}
+
+.centerAllParallax {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whiteBar {
+    width: 100%;
+    height: 50px;
+    background-color: var(--base-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whiteBarIcon {
+    color: var(--background-color);
+    transform: rotate(90deg);
+    height: 30px;
+    width: 30px;
+}
+
+.centerAligned {
+    text-align: center;
+}
+
+.topDivBeforeParallax {
+    background-color: var(--accent-color3);
+    color: var(--base-color);
+}
+
+.parallaxSizeContainer {
+    width: 100vw;
+    height: 100vh;
+    @media (max-width: 500px) {
+        height: 170vh;
+        padding: 5px;
+        padding-top: 0px;
+    }
+}
+
+.bellIcon {
+    width: 50px;
+    height: 50px;
+    color: var(--accent-color2);
+}
+
+.bellBox {
+    display: flex;
+    width: 100%;
+    hr {
+        width: 50%;
+    }
+}
+
+.jagged {
+    width: 50%;
+    height: 20px;
+    align-self: center;
+    --m:
+        conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) bottom/8px 51% repeat-x,
+        conic-gradient(from 135deg at top   ,#0000,#000 1deg 89deg,#0000 90deg) top   /8px 51% repeat-x;
+    -webkit-mask: var(--m);
+            mask: var(--m);
+}
+
+.leftSideGradient {
+    background: linear-gradient(90deg, #FFFFFF00, 85%, var(--accent-color));
+}
+
+.rightSideGradient {
+    background: linear-gradient(270deg, #FFFFFF00, 85%, var(--accent-color));
+}
+
+.centeredVideo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
+}
+
+.youtubeVideo {
+    width: 30vw;
+    height: 20vw;
+}
+
+.verticalImageDivInShaded {
+    @media (min-width: 500px) {
+        width: 40vw;
+        margin-left: -5px;
+        margin-bottom: -5px;
+    }
+    @media (max-width: 500px) {
+        width: 90vw;
+        margin-left: -5px;
+        margin-bottom: -5px;
+    }
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.parallaxScreenshot {
+    height: 30vw;
+    width: 15vw;
+    cursor: pointer;
+}
+
+.notificationsScreenshotModalBody {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+.notificationsScreenshotModal .modal-dialog .modal-content {
+    background-color: var(--accent-color3) !important;
+    border: 1px solid var(--base-color);
+    border-radius: 10px;
+}

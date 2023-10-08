@@ -1,0 +1,55 @@
+@import "../styles/main.scss";
+
+.createAccountForm {
+  padding: 40px;
+  max-width: 700px;
+  Button {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  a {
+    color: var(--accent-color);
+    font-size: 13pt;
+  }
+  .centerRow {
+    display: flex;
+    justify-content: center;
+  }
+  .blueButton, .blueButton:active, .blueButton:enabled {
+    width: 70%;
+    background-color:  var(--accent-color);
+    border-color:  var(--accent-color);
+    border-radius: 12px;
+    color:  var(--background-color);
+    font-weight: bold;
+  }
+
+  .blueButton:disabled {
+    background-color: $gray;
+    border-color: $gray;
+  }
+
+  .blueButton:hover {
+    background-color:  var(--accent-color2);
+    border-color:  var(--accent-color2);
+  }
+  .form-label {
+    margin-top: 10px;
+  }
+  .form-control, .form-control:active, .form-control:enabled {
+    color: $gray;
+    background-color:  var(--background-color);
+    box-shadow: none;
+  }
+  .redText {
+    color: $warning;
+  }
+}
+
+.mainContainer {
+  .centerHeader {
+    color:  var(--accent-color);
+    text-align: center;
+  }
+}

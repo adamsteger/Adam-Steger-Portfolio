@@ -1,0 +1,81 @@
+@import "../styles/main.scss";
+
+.usePassContainerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+.background-red {
+  background-color: #C62828;
+}
+
+.background-green {
+  background-color: $accent-color;
+}
+
+.background-gray {
+  background-color: $background-color;
+}
+
+.usePassLabel {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.loadingDiv {
+  justify-content: center;
+}
+
+@keyframes spinnerAnimation {
+  to {transform: rotate(360deg);}
+}
+
+.spinner {
+  animation: spinnerAnimation 1.3s linear infinite;
+}
+
+.usePassFooter {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .gateGuardLogo {
+    height: 50%;
+  }
+  span {
+    color: $accent-color-3;
+    text-decoration: underline;
+  }
+}
+
+.usePassFooter:hover {
+  cursor: pointer;
+}
+
+.aboutPassModal .modal-dialog .modal-content {
+  background-color: $accent-color !important;
+  border: 1px solid $base-color;
+  border-radius: 10px;
+}
+
+.qrCodeModal .modal-dialog .modal-content {
+  background-color: $accent-color !important;
+  border: 1px solid $base-color;
+  border-radius: 10px;
+  .qrCodeModalBody {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.marginTop5 {
+  margin-top: 5px;
+}
+
+.qrCodeIcon {
+  color: black;
+}
