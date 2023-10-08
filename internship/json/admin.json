@@ -1,1 +1,12 @@
-[{"password":"kdusa6y8s","id":"1607d2f9-5f79-49fd-910c-90f73ecaa4a4","username":"portiaportia"},{"password":"password","id":"1607d2f9-5f79-49fd-910c-90f73ecaa4a4","username":"insertusername"}]
+[
+  {
+    "password": "kdusa6y8s",
+    "id": "1607d2f9-5f79-49fd-910c-90f73ecaa4a4",
+    "username": "portiaportia"
+  },
+  {
+    "password": "password",
+    "id": "1607d2f9-5f79-49fd-910c-90f73ecaa4a4",
+    "username": "insertusername"
+  }
+]

@@ -8,8 +8,8 @@ public abstract class DataConstants {
     protected static final String USER_PASSWORD = "password";
     protected static final String USER_EMAIL = "email";
     protected static final String USER_RATING = "rating";
-    protected static final String STUDENT_FILE_NAME = "json/student.json";
-    protected static final String STUDENT_FILE_NAME_TEST = "jsontesting/student.json";
+    protected static final String STUDENT_FILE_NAME = "internship/json/student.json";
+    protected static final String STUDENT_FILE_NAME_TEST = "internship/jsontesting/student.json";
     protected static final String STUDENT_FIRST_NAME = "firstName";
     protected static final String STUDENT_LAST_NAME = "lastName";
     protected static final String STUDENT_PHONE_NUMBER = "phone";
@@ -23,14 +23,14 @@ public abstract class DataConstants {
     protected static final String REVIEW_WRITER = "writer";
     protected static final String REVIEW_RATING = "rating";
     protected static final String REVIEW_COMMENT = "comment";
-    protected static final String EMPLOYER_FILE_NAME = "json/employers.json";
-    protected static final String EMPLOYER_FILE_NAME_TEST = "jsontesting/employer.json";
+    protected static final String EMPLOYER_FILE_NAME = "internship/json/employers.json";
+    protected static final String EMPLOYER_FILE_NAME_TEST = "internship/jsontesting/employer.json";
     protected static final String EMPLOYER_TITLE = "title";
     protected static final String EMPLOYER_LOCATION = "location";
     protected static final String EMPLOYER_MISSION = "mission";
     protected static final String EMPLOYER_REVIEWS = "reviews";
-    protected static final String INTERNSHIP_FILE_NAME = "json/internshipposts.json";
-    protected static final String INTERNSHIP_FILE_NAME_TEST = "jsontesting/internshipposts.json";
+    protected static final String INTERNSHIP_FILE_NAME = "internship/json/internshipposts.json";
+    protected static final String INTERNSHIP_FILE_NAME_TEST = "internship/jsontesting/internshipposts.json";
     protected static final String INTERNSHIP_ID = "id";
     protected static final String INTERNSHIP_EMPLOYER_TITLE = "employerTitle";
     protected static final String INTERNSHIP_POSITION_TITLE = "posTitle";
@@ -44,8 +44,8 @@ public abstract class DataConstants {
     protected static final String INTERNSHIP_IS_OPEN = "isOpen";
     protected static final String INTERNSHIP_LOW_PAY = "lowPay";
     protected static final String INTERNSHIP_HIGH_PAY = "highPay";
-    protected static final String APPLICATIONS_FILE_NAME = "json/applications.json";
-    protected static final String APPLICATIONS_FILE_NAME_TEST = "jsontesting/applications.json";
+    protected static final String APPLICATIONS_FILE_NAME = "internship/json/applications.json";
+    protected static final String APPLICATIONS_FILE_NAME_TEST = "internship/jsontesting/applications.json";
     protected static final String APPLICATIONS_STUDENT_ID = "studentID";
     protected static final String APPLICATIONS_EMPLOYER_ID = "employerID";
     protected static final String APPLICATIONS_POST_ID = "postID";
@@ -57,8 +57,8 @@ public abstract class DataConstants {
     protected static final String RESUME_WORK = "work";
     protected static final String RESUME_HONORS = "honors";
     protected static final String RESUME_EXTRACURRICULARS = "extracurriculars";
-    protected static final String RESUME_FILE_NAME = "json/resume.json";
-    protected static final String RESUME_FILE_NAME_TEST = "jsontesting/resume.json";
+    protected static final String RESUME_FILE_NAME = "internship/json/resume.json";
+    protected static final String RESUME_FILE_NAME_TEST = "internship/jsontesting/resume.json";
     protected static final String EDUCATIONS = "educations";
     protected static final String EDUCATION_SCHOOL = "schoolTitle";
     protected static final String EDUCATION_LOCATION = "location";
@@ -87,6 +87,6 @@ public abstract class DataConstants {
     protected static final String HONORS_ORGAN = "organization";
     protected static final String HONORS_DESCRIPTION = "description";
     protected static final String HONORS_YEAR = "year";
-    protected static final String ADMIN_FILE_NAME = "json/admin.json";
-    protected static final String ADMIN_FILE_NAME_TEST = "jsontesting/admin.json";
+    protected static final String ADMIN_FILE_NAME = "internship/json/admin.json";
+    protected static final String ADMIN_FILE_NAME_TEST = "internship/jsontesting/admin.json";
 }
