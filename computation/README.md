@@ -5,7 +5,7 @@ This repository contains code for a project in CSCE 355:Foundation of Computatio
 # Build Instructions
 ## e-NFA to NFA Converter
 To run the e-NFA to NFA conversion, first run the following commands in a terminal.
-<br>  `git clone https://github.com/adamsteger/computation.git`
+<br>  `git clone https://github.com/adamsteger/Adam-Steger-Portfolio.git`
 <br>  `cd computation`
   
 Then, compile the code with the following command:
