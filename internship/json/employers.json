@@ -1,0 +1,49 @@
+[
+  {
+    "password": "abcdefg",
+    "mission": "THINK",
+    "reviews": [
+      { "rating": 5, "comment": "Great experience!", "writer": "Adam Steger" }
+    ],
+    "rating": 4.7,
+    "location": "Washington, DC",
+    "id": "d850d67d-1952-45df-a85b-52c50af0c22d",
+    "title": "IBM",
+    "email": "IBM@IBM.com",
+    "username": "ImIBM"
+  },
+  {
+    "password": "37ddgf$2rh7!",
+    "mission": "Don't be evil",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Set me up with the essential skills needed to work in a large company!",
+        "writer": "Ana Boccanfuso"
+      }
+    ],
+    "rating": 4.5,
+    "location": "Mountain View, CA",
+    "id": "73c8f955-e5e0-4bec-9ff2-ff7107a5549d",
+    "title": "Google",
+    "email": "google@gmail.com",
+    "username": "GoogleyGoog"
+  },
+  {
+    "password": "password",
+    "mission": "to be micro",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "love this company",
+        "writer": "Vaughn Eugenio"
+      }
+    ],
+    "rating": 4.5,
+    "location": "Seattle, WA",
+    "id": "73c8f955-e5e0-4bec-9ff2-ff7107a5549f",
+    "title": "Microsoft",
+    "email": "microsoft@gmail.com",
+    "username": "MicroSofty"
+  }
+]

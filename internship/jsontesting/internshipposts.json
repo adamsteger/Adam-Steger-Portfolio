@@ -1,0 +1,52 @@
+[
+    {
+      "posTitle": "Software Engineering Intern",
+      "endDate": "August 2021",
+      "isRemote": true,
+      "description": "You will be tasked with assisting leading IBM developers in creating and pushing projects.",
+      "lowPay": 1500,
+      "isOpen": true,
+      "employerTitle": "IBM",
+      "highPay": 2000,
+      "location": "Washington, DC",
+      "id": "a36abc8b-4f91-4cc4-b761-fe0ff3462326",
+      "startDate": "June 2021",
+      "skillReq": [{ "skill": "CPP" }, { "skill": "PYTHON" }]
+    },
+    {
+      "posTitle": "Web Development Intern",
+      "endDate": "August 2021",
+      "isRemote": true,
+      "description": "You will be tasked with assisting in the design and UI of on the front end of projects.",
+      "lowPay": 2500,
+      "isOpen": true,
+      "employerTitle": "Google",
+      "highPay": 2750,
+      "location": "Mountain View, CA",
+      "id": "1760ffc1-3d8c-447b-a31c-2b13da728cf2",
+      "startDate": "June 2021",
+      "skillReq": [
+        { "skill": "HTML" },
+        { "skill": "C" },
+        { "skill": "JAVASCRIPT" }
+      ]
+    },
+    {
+      "posTitle": "Software Intern",
+      "endDate": "August 2021",
+      "isRemote": true,
+      "description": "Implement software design patterns.",
+      "lowPay": 1000,
+      "isOpen": true,
+      "employerTitle": "Microsoft",
+      "highPay": 1500,
+      "location": "Redmond, Washington",
+      "id": "cdf876cd-12c3-406b-a6db-0dba7110e9ff",
+      "startDate": "May 2021",
+      "skillReq": [
+        { "skill": "CPP" },
+        { "skill": "C" },
+        { "skill": "JAVASCRIPT" }
+      ]
+    }
+  ]

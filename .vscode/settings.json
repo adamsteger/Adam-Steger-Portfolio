@@ -1,0 +1,8 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "h:\\adams\\Documents\\CSCE247\\internship\\hamcrest-2.2.jar",
+        "h:\\adams\\Documents\\CSCE247\\internship\\json-simple-1.1.1.jar",
+        "h:\\adams\\Documents\\CSCE247\\internship\\junit-4.13.2.jar"
+    ]
+}

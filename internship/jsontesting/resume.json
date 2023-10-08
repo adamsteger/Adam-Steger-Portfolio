@@ -1,0 +1,86 @@
+[
+    {
+      "skills": [
+        { "resume": false, "skill": "PYTHON" },
+        { "resume": true, "skill": "JAVA" }
+      ],
+      "courses": [
+        { "resume": false, "course": "University 101" },
+        { "resume": true, "course": "Software Engineering" }
+      ],
+      "work": [
+        {
+          "resume": true,
+          "posTitle": "Data Scientist Intern",
+          "endDate": "Feb 2021",
+          "employer": "Nelnet",
+          "description": [
+            { "String": "Learned data scientist things" },
+            { "String": "Learned data scientist things" }
+          ],
+          "location": "Columbia, SC",
+          "startDate": "Jan 2020"
+        }
+      ],
+      "educations": [
+        {
+          "resume": true,
+          "location": "Columbia, SC",
+          "gradYear": 2022,
+          "major": "Computer Science",
+          "schoolTitle": "University of South Carolina"
+        }
+      ],
+      "id": "f0181b70-7d43-4ff8-b055-03ff3144cbb5",
+      "honors": [
+        {
+          "resume": true,
+          "description": "GPA of over 3.7",
+          "title": "Summa Cum Laude",
+          "year": 2020,
+          "organization": "University of South Carolina"
+        }
+      ],
+      "extracurriculars": [
+        {
+          "resume": true,
+          "position": "President",
+          "title": "Robotics Club",
+          "endDate": "Jan 2022",
+          "startDate": "Jan 2021"
+        }
+      ]
+    },
+    {
+      "skills": [
+  
+      ],
+      "courses": [
+        { "resume": true, "course": "Computing in the Modern World" },
+        { "resume": true, "course": "Algorithm Design" }
+      ],
+      "work": [
+      ],
+      "educations": [
+      ],
+      "id": "9e57129b-864e-4407-8266-2115f15a784a",
+      "honors": [
+        {
+          "resume": true,
+          "description": "GPA of over 3.4",
+          "title": "Magna Cum Laude",
+          "year": 2022,
+          "organization": "University of South Carolina"
+        }
+      ],
+      "extracurriculars": [
+        {
+          "resume": true,
+          "position": "Treasurer",
+          "title": "Dance Marathon",
+          "endDate": "Jan 2022",
+          "startDate": "Jan 2021"
+        }
+      ]
+    }
+  ]

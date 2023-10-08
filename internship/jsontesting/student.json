@@ -1,0 +1,40 @@
+[
+    {
+      "lastName": "Mama",
+      "address": "123 Cherry Lane Columbia, SC 29201",
+      "rating": 3.0,
+      "showGPA": true,
+      "firstName": "Joe",
+      "password": "12345678",
+      "resumeID": "f0181b70-7d43-4ff8-b055-03ff3144cbb5",
+      "reviews": [
+        { "rating": 4, "comment": "Very Solid Intern!", "writer": "Google" }
+      ],
+      "favoritePosts": [{ "id": "a36abc8b-4f91-4cc4-b761-fe0ff3462326" }],
+      "phone": "(987)654-3210",
+      "gpa": 4.0,
+      "id": "73422490-1eb2-4aba-b7a0-e501364c19fe",
+      "gradYear": 2022,
+      "email": "joejoe123@gmail.com",
+      "username": "mamajoe123"
+    },
+    {
+      "lastName": "Bacon",
+      "address": "123 BLT Lane Columbia, SC 29201",
+      "rating": 4.0,
+      "showGPA": false,
+      "firstName": "Chris",
+      "password": "87654321",
+      "resumeID": "9e57129b-864e-4407-8266-2115f15a784a",
+      "reviews": [
+        { "rating": 5, "comment": "Great Work Ethic", "writer": "Amazon" }
+      ],
+      "favoritePosts": [{ "id": "1760ffc1-3d8c-447b-a31c-2b13da728cf2" }],
+      "phone": "(0123)456-789",
+      "gpa": 3.5,
+      "id": "ac29913b-2ef5-4ae9-bde7-10b47f139c5e",
+      "gradYear": 2021,
+      "email": "imchrispbacon@gmail.com",
+      "username": "chrispbacon"
+    }
+  ]

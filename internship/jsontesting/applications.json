@@ -1,0 +1,18 @@
+[
+    {
+      "employerID": "d850d67d-1952-45df-a85b-52c50af0c22d",
+      "postID": "a36abc8b-4f91-4cc4-b761-fe0ff3462326",
+      "applicants": [{ "studentID": "73422490-1eb2-4aba-b7a0-e501364c19fe" }]
+    },
+    {
+      "employerID": "73c8f955-e5e0-4bec-9ff2-ff7107a5549d",
+      "postID": "1760ffc1-3d8c-447b-a31c-2b13da728cf2",
+      "applicants": [{ "studentID": "ac29913b-2ef5-4ae9-bde7-10b47f139c5e" }]
+    },
+    {
+      "employerID": "73c8f955-e5e0-4bec-9ff2-ff7107a5549f",
+      "postID": "cdf876cd-12c3-406b-a6db-0dba7110e9ff",
+      "applicants": []
+    }
+  ]
+  
