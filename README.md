@@ -12,3 +12,30 @@ This directory contains the group project UrTern, which is a console application
 
 ### Design Patterns (Java)
 This directory contains design patterns from a Software Engineering course.
+
+### Relevant Coursework
+
+### Computer Science
+* Data Structures & Algorithms (CSCE 350)
+* Software Engineering (CSCE 247)
+* Algorithmic Design I/II (CSCE 145/146) 
+* Foundation of Computation (CSCE 355) 
+* Database System Design (CSCE 520) 
+* Capstone Computing I/II (CSCE 490/492) 
+* UNIX/Linux Fundamentals (CSCE 215) 
+* Advanced Programming Techniques (CSCE 240) 
+* Programming Language Structures (CSCE 330) 
+* Digital Logic Design (CSCE 211) 
+* Intro to Computer Architecture (CSCE 212) 
+* Computer Game Development (CSCE 522) 
+* Technical Writing (ENGL 462) 
+### Cybsersecurity
+* Intro to Computer Security (CSCE 201) 
+* Information Security Principles (CSCE 522) 
+* Intro to Computer Networks (CSCE 416) 
+### Math/Statistics
+* Vector Calculus (MATH 241) 
+* Discrete Structures (MATH 374) 
+* Applied Linear Algebra (MATH 344) 
+* Statistics for Engineers (STAT 509) 
+* Elementary Statistics (STAT 201) 
