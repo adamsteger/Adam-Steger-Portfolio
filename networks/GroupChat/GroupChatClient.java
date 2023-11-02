@@ -1,6 +1,5 @@
 /*
  * Implementation of a two way messaging client in Java
- * By Srihari Nelakuditi and Adam Steger for CSCE 416
  */
 
 // Package for socket related stuff

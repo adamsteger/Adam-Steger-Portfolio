@@ -1,6 +1,5 @@
 /*
  * Implementation of a two way messaging server in Java
- * By Srihari Nelakuditi and Adam Steger for CSCE 416
  */
 
 // I/O related package
