@@ -1,0 +1,48 @@
+<div class="container px-4 my-5">
+  <div class="row">
+    <p>Would you like to be called sometime before...</p>
+  </div>
+  <div class="row">
+    <h4>
+      <b>{{ callTime }}, Today?</b>
+    </h4>
+  </div>
+  <div class="row">
+    <p>That's about <b>20 minutes</b> from now.*</p>
+  </div>
+  <div class="row mb-3">
+    <button class="submit" (click)="initiateCall()">
+      Yes, please call me!
+    </button>
+  </div>
+  <div class="row justify-content-center" *ngIf="callSuccess">
+    <p class="d-flex">Success! Be on the lookout for a call from us soon.</p>
+  </div>
+  <div class="row">
+    <p id="disclaimer">
+      * We do our best to call at the time listed above, but due to fluctuating
+      call volume, this time is approximate.
+    </p>
+  </div>
+  <div class="row justify-content-center">
+    <a href="" class="text-decoration-none d-flex align-items-center"
+      ><svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-arrow-counterclockwise mx-1"
+        viewBox="0 0 16 16"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2v1z"
+        ></path>
+        <path
+          d="M8 4.466V.534a.25.25 0 0 0-.41-.192L5.23 2.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 8 4.466z"
+        ></path>
+      </svg>
+      Start Over
+    </a>
+  </div>
+</div>

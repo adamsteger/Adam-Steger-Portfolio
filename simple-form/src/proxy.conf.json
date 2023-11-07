@@ -1,0 +1,6 @@
+{
+  "/swampfoxServiceLayer/public/demoCallback": {
+    "target": { "host": "10.91.10.193", "protocol": "https:", "port": 8443 },
+    "secure": false
+  }
+}

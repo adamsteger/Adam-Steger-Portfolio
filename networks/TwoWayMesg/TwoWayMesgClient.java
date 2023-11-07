@@ -1,6 +1,5 @@
 /*
  * Implementation of the two-way message client in java
- * By Srihari Nelakuditi and Adam Steger for CSCE 416
  */
 
 // Package for I/O related stuff
