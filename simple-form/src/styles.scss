@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  height: 38px;
+  border-radius: 5px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+input,
+select {
+  margin-top: 3px;
+  height: 28px;
+  border-radius: 0.25rem;
+  border-color: lightgray;
+  text-indent: 10px;
+}
+input {
+  text-indent: 10px;
+}
+select {
+  height: 29px;
+  background: rgb(217, 217, 217);
+  background: linear-gradient(
+    rgba(217, 217, 217, 0.5) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+label {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+button.submit {
+  background-color: #5bc0de;
+  border-color: #5bc0de;
+}
+button.secondary {
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+}
+
+hr {
+  border: 1px solid lightgray;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

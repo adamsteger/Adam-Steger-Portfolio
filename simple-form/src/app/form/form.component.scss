@@ -1,0 +1,138 @@
+.container {
+  max-width: 500px;
+  width: 100%;
+  justify-content: center;
+  text-align: left;
+  // display: flex;
+  // margin: 50px;
+}
+
+.max-width {
+  width: 100%;
+}
+
+.address-table {
+  display: table;
+}
+.address-row {
+  display: inline-flex;
+  gap: 5px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 5px;
+}
+.address-row > input,
+.address-row > select {
+  // display: inline-block;
+  margin-bottom: 20px;
+}
+
+.city {
+  width: 96%;
+}
+
+.state {
+  width: 90%;
+}
+
+.zip {
+  width: 100%;
+}
+
+p.finish {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p.start {
+  font-weight: 400;
+  font-size: 13px;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+img.logo {
+  display: block;
+  // height: 80px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 10px;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid lightgray;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 0.25em;
+}
+.row {
+  margin-bottom: 1rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  height: 38px;
+  border-radius: 5px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+input,
+select {
+  margin-top: 3px;
+  height: 28px;
+  border-radius: 0.25rem;
+  border-color: lightgray;
+  text-indent: 10px;
+}
+input {
+  text-indent: 10px;
+}
+select {
+  height: 29px;
+  background: rgb(217, 217, 217);
+  background: linear-gradient(
+    rgba(217, 217, 217, 0.5) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+label {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+button.submit {
+  background-color: #5bc0de;
+  border-color: #5bc0de;
+}
+button.secondary {
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+}
+
+hr {
+  border: 1px solid lightgray;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,168 @@
+<div class="container mx-auto px-4 my-2">
+  <form #form="ngForm" (ngSubmit)="startConfirmation()">
+    <div class="row mb-0">
+      <img
+        class="logo center"
+        src="/assets/spf_logo_blk.png"
+        alt="Swampfox Power Logo"
+      />
+    </div>
+    <div class="row">
+      <p class="start">
+        You'll need to provide some information to start a new service:
+      </p>
+    </div>
+    <div class="row">
+      <label for="name"
+        >Please provide your full name (as it appears on your driver's
+        license)</label
+      >
+      <br />
+      <input class="max-width" type="text" placeholder="First and Last Name" />
+    </div>
+    <div class="row">
+      <label for="phone">Your phone number...</label>
+      <br />
+      <input
+        [(ngModel)]="phoneNumber"
+        type="text"
+        id="phone"
+        name="phone"
+        placeholder="(###) ### - ####"
+        class="max-width"
+      />
+    </div>
+    <div class="row mb-1">
+      <label for="address"
+        >Enter the address where you want to start a new service</label
+      >
+      <br />
+      <input type="text" placeholder="Street" class="max-width" />
+    </div>
+    <div class="row gx-2">
+      <div class="col-7">
+        <input type="text" placeholder="City" class="city" />
+      </div>
+      <div class="col-2 align-middle">
+        <select name="state" id="state" class="state">
+          <option value="" disabled selected>ST</option>
+          <option value="AL">AL</option>
+          <option value="AK">AK</option>
+          <option value="AR">AR</option>
+          <option value="AZ">AZ</option>
+          <option value="CA">CA</option>
+          <option value="CO">CO</option>
+          <option value="CT">CT</option>
+          <option value="DC">DC</option>
+          <option value="DE">DE</option>
+          <option value="FL">FL</option>
+          <option value="GA">GA</option>
+          <option value="HI">HI</option>
+          <option value="IA">IA</option>
+          <option value="ID">ID</option>
+          <option value="IL">IL</option>
+          <option value="IN">IN</option>
+          <option value="KS">KS</option>
+          <option value="KY">KY</option>
+          <option value="LA">LA</option>
+          <option value="MA">MA</option>
+          <option value="MD">MD</option>
+          <option value="ME">ME</option>
+          <option value="MI">MI</option>
+          <option value="MN">MN</option>
+          <option value="MO">MO</option>
+          <option value="MS">MS</option>
+          <option value="MT">MT</option>
+          <option value="NC">NC</option>
+          <option value="NE">NE</option>
+          <option value="NH">NH</option>
+          <option value="NJ">NJ</option>
+          <option value="NM">NM</option>
+          <option value="NV">NV</option>
+          <option value="NY">NY</option>
+          <option value="ND">ND</option>
+          <option value="OH">OH</option>
+          <option value="OK">OK</option>
+          <option value="OR">OR</option>
+          <option value="PA">PA</option>
+          <option value="RI">RI</option>
+          <option value="SC">SC</option>
+          <option value="SD">SD</option>
+          <option value="TN">TN</option>
+          <option value="TX">TX</option>
+          <option value="UT">UT</option>
+          <option value="VT">VT</option>
+          <option value="VA">VA</option>
+          <option value="WA">WA</option>
+          <option value="WI">WI</option>
+          <option value="WV">WV</option>
+          <option value="WY">WY</option>
+        </select>
+      </div>
+      <div class="col-3">
+        <input
+          type="text"
+          placeholder="Zip"
+          pattern="[0-9]{5}"
+          class="zip"
+          size="5"
+        />
+      </div>
+    </div>
+    <hr />
+    <div class="row">
+      <label for="service-type"
+        >Would you like to start electric service, gas service, or both?</label
+      ><br />
+      <select name="service-type" id="service-type" class="max-width">
+        <option value="" disabled selected>Select One...</option>
+        <option value="electric">Electric Service Only</option>
+        <option value="gas">Gas Service Only</option>
+        <option value="both">Both Electric and Gas Service</option>
+      </select>
+    </div>
+    <div class="row">
+      <label for="property">What type of property?</label>
+      <br />
+      <select name="property" id="property" class="max-width">
+        <option value="" disabled selected>Select One...</option>
+        <option value="single">Single Family Residence</option>
+        <option value="apartment">Apartment</option>
+        <option value="duplex">Duplex</option>
+        <option value="business">Business</option>
+      </select>
+    </div>
+    <div class="row">
+      <label for="rent">Do you rent or own?</label>
+      <br />
+      <select name="rent" id="rent" class="max-width">
+        <option value="" disabled selected>Select One...</option>
+        <option value="rent">Rent</option>
+        <option value="own">Own</option>
+      </select>
+    </div>
+    <hr />
+    <div class="row my-0">
+      <p class="finish">
+        When would you like to speak to an agent to finish your enrollment?
+      </p>
+    </div>
+    <div class="row my-0">
+      <button
+        type="submit"
+        value="submit"
+        class="submit max-width"
+        (click)="startConfirmation()"
+        [routerLink]="['confirmation']"
+      >
+        As soon as possible.
+      </button>
+    </div>
+    <div class="separator">
+      <span>OR</span>
+    </div>
+    <div class="row">
+      <button class="secondary max-width">At a specific time...</button>
+    </div>
+  </form>
+</div>
