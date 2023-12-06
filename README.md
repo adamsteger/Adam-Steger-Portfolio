@@ -5,7 +5,7 @@ This repository contains public individual and group projects I have contributed
 This directory contains the Gate Guard application on my resume. It is an electronic pass manager for gated communities, and it can be found [here](https://gate-guard.com/).  In this project, I used Java, Spring Boot, and PostgreSQL for the backend of the application.  I utilized relational database schemas, as well as SQL queries to manage communication to the database relay it to the GUI to be displayed to the user. 
 
 ## Simple-Form (Angular)
-This directory contains a quick, simple I personally made during my internship at Swampfox Technologies.  The purpose of the form was to call an api to initiate a phone call for a sales demo.  This form was made with Angular and bootstrap, and is reactive to mobile devices.
+This directory contains a quick, simple form I personally made during my internship at Swampfox Technologies.  The purpose of the form was to call an api to initiate a phone call for a sales demo.  This form was made with Angular and bootstrap, and is reactive to mobile devices.
 
 ## Computation (Java)
 This directory contains coursework for Foundations in Computation.  My code features a program to remove epsilon transitions from an NFA, as well as a program to simulate a NFA for a given string input. 
